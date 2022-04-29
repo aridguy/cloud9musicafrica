@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Oculus Documentation</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/favicon.png">
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800,300' rel='stylesheet' type='text/css'>
+        
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        
+        <header class="navbar navbar-inverse" role="banner">
+          <div class="container">
+            <div class="navbar-header float-left d-inline-block">
+                <a href="#">
+                    <img src="img/logo.png"/>  
+                </a>
+            </div>
+            
+            <nav class="float-right d-inline-block" role="navigation">
+                <ul class="nav navbar-right">
+                    <li>
+                        <a href="#masthead" class="bg-transparent px-3 py-0">Back to top</a>
+                    </li>
+                    <li>
+                        <a href="#credits" class="bg-transparent px-3 py-0">Credits</a>
+                    </li>
+                </ul>
+            </nav>
+          </div>
+        </header>
+
+        <div id="masthead">  
+          <div class="container text-center">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1>Oculus</h1>
+                    <p class="lead">HTML5/CSS3-Bootstrap Template Documentation</p>
+                </div>
+                 
+              </div> 
+          </div><!-- /cont -->
+        </div>
+
+        <!-- Begin Body -->
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3" id="leftCol">
+                        <nav class="navbar sticky-top navbar-light bg-light mt-5">
+                            <div class="navbar-collapse">
+                                <ul class="nav flex-column py-3" id="sidebar">
+                                    <li><a href="#Info">Template Information</a></li>
+                                    <li><a href="#html-structure">HTML Structure</a></li>
+                                    <li><a href="#css-linking">CSS Linking</a></li>
+                                    <li><a href="#javascript">Javascript</a></li>
+                                    <li><a href="#navigation">Navigation</a></li>
+                                    <li><a href="#bg">Backgrounds</a></li>
+                                    <li><a href="#slider">Slider</a></li>
+                                    <li><a href="#portfolio">Portfolio</a></li>
+                                    <li><a href="#service">Service</a></li>
+                                    <li><a href="#blog">Blog</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                    <li><a href="#fonts">Fonts & Icons</a></li>
+                                    <li><a href="#credits">Source & Credits</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>  
+                    <div class="col-md-9">
+                        
+                        <div class="col-lg-12 py-5" id="Info">
+                            <h2>Template Information</h2>
+                                <h4>Description :</h4>
+                                <ul>
+                                    <li>Oculus is a creative, elegant, modern, clean and Responsive HTML5/CSS3 Portfolio Template based on Bootstrap. Compatible with Desktop,Laptop,tablet,mobile or any device. Oculus is simple and clean design. All files are clearly organised. We believe it will be easy to use and edit them.</li>
+                                </ul>
+
+                                <h4>Content Mapping :</h4>
+                                <ul>
+                                    <li>Template root has <strong>24 .html</strong> files and <strong>3 folders</strong></li>
+                                    <li>Stylesheets <strong>(CSS files)</strong> of this template are placed in <strong>css</strong> folder.  <strong>style.css</strong> file for template main/custom style sheet.</li>
+                                    <li>All Images are in <strong>images</strong> folder.</li>
+                                    <li>And all Javascripts files are in <strong>js</strong> folder.</li>
+                                </ul>
+                        </div>
+                        
+                        <!-- HTML Structure -->
+                        <div class="col-lg-12 py-5" id="html-structure">
+                            <h2>HTML Structure</h2>
+                            <p>
+                                
+                                The template is based on <a href="http://getbootstrap.com/">Bootstrap 4</a> the world's most popular front-end component library for developing responsive, mobile-first projects on the web.
+                                <br>
+                                <br>
+                                Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. It includes predefined classes for easy layout options, as well as powerful mixins for generating more semantic layouts.
+                                
+                                <br>
+                                <br>
+                                Create a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding, then create .row and add columns with appropriate device name (xs, sm, md, lg) and grid number (2, 4, 6, 12).
+                                <br>
+                                <br>
+                                <strong>For full documentation, please visit Bootstrap 4 site: <a href="https://getbootstrap.com/docs/4.1/getting-started/download/">https://getbootstrap.com/docs/4.1/getting-started/download/</a></strong>
+                            </p>
+
+                            <div class="col-lg-12 highlight box mb-3">
+<pre><code>
+&lt;section id="" class=""&gt;
+    &lt;div class="container"&gt;
+        ...
+        ...
+    &lt;/div&gt;
+&lt;/section&gt;
+</code></pre>
+                            </div>
+                        </div>
+
+                         
+                         <!-- CSS linking-->
+                        
+                        <div class="col-lg-12 py-5" id="css-linking">
+                            <h2>CSS Linking On page</h2>
+                            <p>
+                                
+                                Well organized and labeled CSS files is one of my priorities.
+                                <br>
+                                These are the CSS file you're be using in the template:
+                                <br>
+                                
+                            </p>
+
+                            <div class="col-lg-12 highlight box mb-3">
+                                
+                                <ul>
+                                    <li>
+                                        Inside page head tag you only have to link this css (css/style.css). <br>
+										<strong>all css files are imported on style.css file</strong>.
+                                    </li>
+                                    <li>
+                                        <strong>style.css </strong> (Elements such as titles, sections, backgrounds, column styles, etc... css are on this file)
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                        
+                         <!-- JS Files Including -->
+                        
+                        
+                        <div class="col-lg-12 py-5" id="javascript">
+                            <h2>Javascript</h2>
+                            <p>
+                                
+                               jQuery - is a Javascript library that greatly reduces the amount of code that you must write.
+                                <br>
+                                For more information, please visit <a href="http://www.jquery.com/">http://www.jquery.com/</a>
+                                <br>
+                                <br>
+                                The initialization of the elements, libs and features is made by the file <strong>custom.js</strong>, in the js folder.
+                            </p>
+
+                            
+                        </div>
+
+
+                        <!-- Background Iamges Adding method-->
+                        <div class="col-lg-12 py-5" id="navigation">
+                            <h2>Navigation</h2>
+                            <p>Open any .html file and see coding pattern for our navigation. One style for header. In Inner page has no top bar section.</p>
+                            <br>                            
+                            <div class="col-lg-12 highlight box mb-3">
+
+<h6>Header 1</h6> 
+<pre><code>
+            &lt;header id="header" class="header_one"&gt;
+                &lt;div class="nav-bar"&gt;
+                    &lt;div class="container"&gt;
+                        &lt;div class="navigation"&gt;
+                            &lt;div class="logo"&gt;
+                                &lt;a href="index.html"&gt;&lt;img src="images/logo.png" alt="logo"&gt;&lt;/a&gt;
+                            &lt;/div&gt;
+                            &lt;nav id="flexmenu"&gt;
+                                &lt;div class="nav-inner"&gt;
+                                    &lt;ul class="main-menu"&gt;
+                                        &lt;li class="menu-item active"&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;
+                                            &lt;ul class="sub-menu"&gt;
+                                                &lt;li class="menu-item"&gt;&lt;a href="index-2.html"&gt;Home 2&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li class="menu-item"&gt;&lt;a href="index-3.html"&gt;Home 3&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li class="menu-item"&gt;&lt;a href="index-4.html"&gt;Home 4&lt;/a&gt;&lt;/li&gt;
+                                                &lt;li class="menu-item"&gt;&lt;a href="index-5.html"&gt;Home 5&lt;/a&gt;&lt;/li&gt;
+                                            &lt;/ul&gt;
+                                        &lt;/li&gt;
+                                    &lt;/ul&gt;
+                                &lt;/div&gt;
+                            &lt;/nav&gt;
+                            &lt;div class="nav-more-info"&gt;
+                                &lt;div class="element"&gt;
+                                    &lt;div id="mobile-toggle" class="mobile-btn"&gt;
+                                        &lt;span class="toggle_line"&gt;&lt;/span&gt;
+                                        &lt;span class="toggle_line"&gt;&lt;/span&gt;
+                                        &lt;span class="toggle_line"&gt;&lt;/span&gt;
+                                    &lt;/div&gt;
+                                    &lt;a href="#" class="search_icon"&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/a&gt;
+                                    &lt;div class="search_overlay"&gt;
+                                        &lt;span class="closebtn"&gt;&times;&lt;/span&gt;
+                                        &lt;form class="search-form" action="search.php"&gt;
+                                            &lt;input type="text" name="search" class="keyword form-control" placeholder="Search"&gt;
+                                            &lt;button type="submit" class="form-control form-control-submit"&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/button&gt;
+                                        &lt;/form&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class="overlaynav"&gt;
+                    &lt;a href="#" class="overlaynavclose"&gt;&times;&lt;/a&gt;
+                    &lt;nav id="overlaymenu"&gt;
+                        &lt;ul class="main-menu"&gt;
+                            &lt;li class="menu-item active"&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;
+                                &lt;ul class="sub-menu"&gt;
+                                    &lt;li class="menu-item"&gt;&lt;a href="index-2.html"&gt;Home 2&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class="menu-item"&gt;&lt;a href="index-3.html"&gt;Home 3&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class="menu-item"&gt;&lt;a href="index-4.html"&gt;Home 4&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class="menu-item"&gt;&lt;a href="index-5.html"&gt;Home 5&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/nav&gt;
+                &lt;/div&gt;
+            &lt;/header&gt;
+</code></pre>
+<br>
+<p>Like this We have another 3 styles (total 4 types) of header. Please open our each index.html file and see header coding pattern.</p>
+   
+                                
+                            </div>
+                        </div>
+
+                        
+                        <!-- Background Iamges Adding method-->
+                        <div class="col-lg-12 py-5" id="bg">
+                            <h2>Backgrounds</h2>
+                            <p>
+                                Some of the sections have backgrounds image and to change those backgrounds: <br>
+                                1. Simply open <strong>style.css</strong> find that section class name, change background image by change the link of image directory<br> <strong>OR</strong> </br>
+                                2. In that image directory keep your image as same name as like us.</br>
+                                3. Few section has background overlay low opacity color. Follow the below code, please.
+                            </p>
+                            <br>
+                            <p><strong>style.css:</strong></p>
+                            <div class="col-lg-12 highlight box mb-3">
+<pre><code>
+    .page-header-content {
+        position: relative;
+        background: url(../images/header-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .banner_1 {
+        background: url(../images/bg-1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+<span>etc...</span>
+</code></pre>   
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 py-5" id="slider">
+                        <h2>Slider Section</h2>
+                            
+                            <div class="col-lg-12 highlight box mb-3">
+<h6>HTML Code</h6>
+<pre><code>
+            &lt;div class="slide_1"&gt;
+                    &lt;div class="owl-carousel slider_carousel_1"&gt;
+                        &lt;div class="item"&gt;
+                            &lt;div class="slider_item" style="background-image:url('images/slider/bg_1.jpg')"&gt;
+                                &lt;div class="slider-inner"&gt;
+                                    &lt;div class="slider-details"&gt;
+                                        &lt;span class="slider-tag"&gt;landscape&lt;/span&gt;
+                                        &lt;h1 class="slide_heading"&gt;
+                                            &lt;span class="sub_heading"&gt;Incredible&lt;/span&gt;  &lt;br&gt;
+                                            &lt;span class="default_heading"&gt;Iceland&lt;/span&gt;
+                                        &lt;/h1&gt;
+                                        &lt;div class="button_group"&gt;
+                                            &lt;a href="#" class="button effect_5 fade_white_button" data-text="Read More"&gt;&lt;span&gt;See Details&lt;/span&gt;&lt;/a&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="item"&gt;
+                            &lt;div class="slider_item" style="background-image:url('images/slider/bg_2.jpg')"&gt;
+                                &lt;div class="slider-inner"&gt;
+                                    &lt;div class="slider-details"&gt;
+                                        &lt;span class="slider-tag"&gt;landscape&lt;/span&gt;
+                                        &lt;h1 class="slide_heading"&gt;
+                                            &lt;span class="sub_heading"&gt;Incredible&lt;/span&gt;  &lt;br&gt;
+                                            &lt;span class="default_heading"&gt;Iceland&lt;/span&gt;
+                                        &lt;/h1&gt;
+                                        &lt;div class="button_group"&gt;
+                                            &lt;a href="#" class="button effect_2 fade_white_button" data-text="Read More"&gt;&lt;span&gt;See Details&lt;/span&gt;&lt;/a&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="item"&gt;
+                            &lt;div class="slider_item" style="background-image:url('images/slider/bg_3.jpg')"&gt;
+                                &lt;div class="slider-inner"&gt;
+                                    &lt;div class="slider-details"&gt;
+                                        &lt;span class="slider-tag"&gt;landscape&lt;/span&gt;
+                                        &lt;h1 class="slide_heading"&gt;
+                                            &lt;span class="sub_heading"&gt;Incredible&lt;/span&gt;  &lt;br&gt;
+                                            &lt;span class="default_heading"&gt;Iceland&lt;/span&gt;
+                                        &lt;/h1&gt;
+                                        &lt;div class="button_group"&gt;
+                                            &lt;a href="#" class="button effect_3 fade_white_button" data-text="Read More"&gt;&lt;span&gt;See Details&lt;/span&gt;&lt;/a&gt;
+                                        &lt;/div&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class="slider-counter"&gt;&lt;/div&gt;
+                &lt;/div&gt;
+</code></pre>
+<p>Here just showing code for slider type 1. Like this has also another 3 types of slider.</p>
+<p>You can add more slide by following this coding pattern. Then change Image. </p>
+<p><b>N.B.:</b> Slider control option API in custom.js. And you can add/remove/edit api by following owl carousel, mention at bellow.</p>
+
+                            </div>
+                        </div>
+
+
+                            
+                        
+                        <div class="col-lg-12 py-5" id="portfolio">
+                            <h2>Portfolio</h2>
+                            <p>See portfolio coding pattern in html file</p>
+                            <div class="col-lg-12 highlight box mb-3">
+<pre><code>
+    &lt;section class="portfolio-grid pt-0"&gt; <span style="background:yellow">[use <strong>"portfolio-grid"</strong> for grid and <strong>"portfolio-masonry"</strong> for masonry portfolio.]</span>
+                    &lt;div class="button-group filters-button-group"&gt;
+                        &lt;button class="button is-checked" data-filter="*"&gt;All works &lt;sup class="filter-count"&gt;&lt;/sup&gt;&lt;/button&gt;
+                        &lt;button class="button" data-filter=".webdesign"&gt;Web Design &lt;sup class="filter-count"&gt;&lt;/sup&gt;&lt;/button&gt;
+                        &lt;button class="button" data-filter=".illustrator"&gt;Illustrator &lt;sup class="filter-count"&gt;&lt;/sup&gt;&lt;/button&gt;
+                        &lt;button class="button" data-filter=".branding"&gt;Branding &lt;sup class="filter-count"&gt;&lt;/sup&gt;&lt;/button&gt;
+                        &lt;button class="button" data-filter=".photography"&gt;Photography &lt;sup class="filter-count"&gt;&lt;/sup&gt;&lt;/button&gt;
+                    &lt;/div&gt;
+                    &lt;div class="grid grid-5 gutter-5 clearfix"&gt; <span style="background:yellow">[use <strong>"grid"</strong> class for <strong>grid portfolio</strong> and <strong>"grid masonry"</strong> class for <strong>masonry portfolio</strong>. In the same tagline, use <strong>"grid-1,2,3,4,5"</strong> class for column and <strong>"gutter-0,5,10,15,20,25,30"</strong> class (as pixel) for column gap.]</span>
+                        &lt;div class="grid-sizer"&gt;&lt;/div&gt;                          
+                        &lt;div class="grid-item webdesign"&gt;
+                            &lt;div class="thumb"&gt;
+                                &lt;img class="item_image" src="images/portfolio/masonry/1.jpg" alt=""/&gt;
+                                &lt;div class="works-info"&gt;
+                                    &lt;div class="label-text"&gt;
+                                        &lt;h4&gt;Beauty of nature in life&lt;/h4&gt;
+                                        &lt;h6&gt;Nature & Life&lt;/h6&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;                            
+                        &lt;div class="grid-item branding"&gt; 
+                            &lt;div class="thumb"&gt;
+                                &lt;img class="item_image" src="images/portfolio/masonry/2.jpg" alt=""/&gt;
+                                &lt;div class="works-info"&gt;
+                                    &lt;div class="label-text"&gt;
+                                        &lt;h4&gt;Beauty of nature in life&lt;/h4&gt;
+                                        &lt;h6&gt;Nature & Life&lt;/h6&gt;
+                                    &lt;/div&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;                        
+                        ------------
+                        ------------
+                    &lt;/div&gt;
+                &lt;/section&gt;
+</code></pre>
+                        </div>
+                        </div>
+
+                        <div class="col-lg-12 py-5" id="blog">
+                            <h2>Blog</h2>
+                            <p>Blog 1: There is "blog-list" class as parent class name in blog section</p>
+                            <div class="box">
+                                <pre><code>
+                                &lt;div class="blog-list"&gt;
+                                    &lt;article class="blog_post"&gt;
+                                        &lt;div class="post_img"&gt;
+                                            &lt;img src="images/blog/1.jpg" alt="img"/&gt;
+                                        &lt;/div&gt;
+                                        &lt;div class="post-content"&gt;
+                                            &lt;div class="post_content_blog"&gt;
+                                                &lt;div class="post_header"&gt;
+                                                    &lt;h6&gt;category&lt;/h6&gt;
+                                                    &lt;h2&gt;Adventures for northern lights&lt;/h2&gt;
+                                                &lt;/div&gt;
+                                                &lt;div class="post_intro"&gt;
+                                                     &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class="post_footer"&gt;
+                                                &lt;ul class="post_meta"&gt;
+                                                    &lt;li&gt;&lt;i class="ion-ios-chatbubbles"&gt;&lt;/i&gt; Comments: 5&lt;/li&gt;
+                                                    &lt;li&gt;&lt;i class="ion-md-alarm"&gt;&lt;/i&gt; Date: 25 Jan 2019&lt;/li&gt;
+                                                &lt;/ul&gt;
+
+                                                &lt;div class="button_group"&gt;
+                                                    &lt;a href="#" class="button light_button effect_5" data-text="Details"&gt;&lt;span&gt;Read More&lt;/span&gt;&lt;/a&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                        &lt;/div&gt;
+                                    &lt;/article&gt;
+                                &lt;/div&gt;
+                            </pre></code>
+                            </div>
+                            <p>Blog 2: There are "blog-grid" class as parent class name in blog section</p>
+                            <div class="box">
+                                &lt;div class="blog-grid"&gt;
+                                    -------
+                                    -------
+                                &lt;/div&gt;
+                            </div>
+                            <p><b>Blog Page Layout:</b> There are three types Blog style in our template. Main content in 8 column, and sidebar is in 4 column.</p>
+                        </div>
+
+                        <div class="col-lg-12 py-5" id="contact">
+                            <h2>Contact</h2>
+                            <p>Add contact form HTML in this page. </p>
+                            <p>Google Map: <b>Google Map API</b> key in contact.html file at bottom in script tag. Change API here. And <b>Lattitude/Longitude</b> in custom.js file.</p>
+                        </div>
+
+                        <!-- Font Using-->
+                        <div class="col-lg-12 py-5" id="fonts">
+                            <h2>Google Fonts</h2>
+                            <p>Open <strong>style.css in any text editor from css</strong> folder. And see imported Google font link. 
+                            </p>
+                            <div class="col-lg-12 highlight box mb-3">
+                                <b><pre>
+<code>@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,300italic,400,600,700|Mukta:400,500,600,700,800|Playfair+Display');</code>
+                                </pre></b>
+                                    
+                            </div>
+                            <p>We are using Google font and other open source font. You can change here font link that you want. Then need to change font-family at that div / tag/ section class in style.css file.</p>
+                            <a class="bg-danger text-light px-2" href="https://fonts.google.com/">Google Font Link</a>
+                        </div>
+
+
+                        <!-- Icon Font Using-->
+                        <div class="col-lg-12 py-5" id="icons">
+                            <h2>Icons</h2>
+                            <p>
+                                
+                                <strong>Font
+                                    Awesome</strong> and <strong>IonIcons</strong> are @font-face icon sets that you can change color and size using CSS. We also use some custom icons on this template. you can easily replace that icons with font awsome or elegant icons.
+                                <br>
+                                If you need more information about these icon sets, please visit this sites:
+                                <br>
+                                <br>
+                                <a href="http://fontawesome.io/icons/">http://fontawesome.io/icons/</a>
+                                <br>
+                                <a href="http://ionicons.com/">IonIcons</a>
+                            </p>
+                            <p>These font css file in this directory: <strong>css\fonts\font-awesome\css\font-awesome.css</strong><br> and 
+                                <strong>css\fonts\ionicons\css\ionicon.css</strong></p>
+                            <p class="bg-danger text-light px-2">Use icon class name from above css files.</p>
+                            <br>
+                            <p>
+                                HTML Markup:
+                            </p>
+                            
+                            <div class="col-lg-12 highlight box mb-3">
+                                <pre><code><span>&lt;i class="fa fa-facebook"&gt;&lt;i&gt;</span>
+<span>&lt;i class="ion-ios-leaf"&gt;&lt;i&gt;</span></code></pre>
+                            </div>
+                            <p>You can use another icon you like. Then keep font in fonts family. And keep icon font css in css folder like ionicon.css and font-awesome.css</p>
+                            <p>Then use font in HTML as per using method of that font.</p>
+                        </div>
+                        
+
+                        
+
+                        
+                        <!--Source & Credits-->
+                        <div class="col-lg-12 py-5" id="credits">
+                            <h2>Source & Credits</h2>
+                            <p>
+                                Fonts:<br>
+                                <strong>&nbsp;&nbsp; &nbsp;Google Web Fonts</strong> - <a href="https://fonts.google.com/">Link</a><br>
+                                <strong>&nbsp;&nbsp; &nbsp;Font Awesome Icons Font-face</strong> - <a href="http://fortawesome.github.com/Font-Awesome/">Link</a>
+                                <br>
+                                <br>
+
+                                Scripts:<br>
+                                <strong>&nbsp;&nbsp; &nbsp;jQuery </strong>- <a href="http://www.jquery.com/">Link</a><br>
+                                <strong>&nbsp;&nbsp; &nbsp;Bootstrap Framework</strong> - <a href="http://getbootstrap.com/">Link</a><br>
+                                <strong>&nbsp;&nbsp; &nbsp;OwlCarousel 2</strong> - <a href="https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html">Link</a><br>
+                                <strong>&nbsp;&nbsp; &nbsp;Fancybox JS </strong>- <a href="http://fancyapps.com/fancybox/">Link</a>
+                            </p>
+                            <br>
+                            <h5>Thank you again for purchase our template!</h5>
+                        </div>
+                    </div> 
+            </div>
+            <div class="highlight box mb-3 text-center">
+                <h6>Oculus - All rights reserved by <i><a href="https://themeforest.net/user/wpthemebooster/portfolio">wpthemebooster</a></i></h6>
+                <p>Created on: 27/03/2020</p>
+            </div>
+        </div>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        
+                
+
+
+
+
+
+
+
+
+
+        
+        <!-- JavaScript jQuery code from Bootply.com editor -->
+        
+        <script type='text/javascript'>
+        
+            $(document).ready(function() {
+
+               $('.nav a').click(function (e) {
+                    var linkHref = $(this).attr("href");
+                    var idElement = linkHref.substr(linkHref.indexOf("#"));
+                    $('html, body').animate({
+                        scrollTop: $(idElement).offset().top
+                    }, 1000);
+                    return false;
+                });
+
+            });
+        
+        </script>
+        
+    </body>
+</html>

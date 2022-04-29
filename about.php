@@ -1,0 +1,134 @@
+<!DOCTYPE php>
+<php lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>About</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+ 
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-phone d-flex align-items-center"><span>+2347067376191</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> info@cloud9musicafrica.com</span></i>
+
+      </div>
+
+      <!-- <div class="languages d-none d-md-flex align-items-center">
+        <ul>
+          <li>En</li>
+          <li><a href="#">De</a></li>
+        </ul>
+      </div> -->
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+      <a href="index.php" class="logo me-auto me-lg-0"><img src="assets/img/logo/Official-logoWB.png" alt="" class="img-fluid"></a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.php" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.php">HOME</a></li>
+          <li><a class="nav-link scrollto  active" href="about.php">ABOUT</a></li>
+          <li><a class="nav-link scrollto" href="artist.php">ARTIST</a></li>
+          <li><a class="nav-link scrollto" href="release.php">RELEASE</a></li>
+          <li><a class="nav-link scrollto" href="contact.php">CONTACT</a></li>
+          </li>
+         <!--  <li><a class="nav-link scrollto" href="contact.php">FAQ</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+ 
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about" style="margin-top: 200px">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="assets/img/about.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content about-content"  align="justify">
+            <p>
+              Cloud9 Music Africa is one of the new Africa’s leading  entertainment companies. 
+              Founded in 2018 as a record label by Akpujiha Fegor, Cloud9 Music Africa produced 
+              some of the definitive music and next rated African artistes such as , JayTrigga, Chris Da King, Lil Johnero, Madd Gorilla,
+              King$oul and KD the Lit Guy.
+            </p>
+            <p>
+             Currently, its roster spans a variety of genres with African artists locally and in the diaspora.</p>
+              <p>
+                As the digital era continues to refashion the way we do things, Cloud9 Music Africa 
+                taste for delivering the utmost value has inspired the company’s expansion into innovative 
+                services such as Festival partnerships, Content production, Music Publishing and Marketing.
+            </p>
+              <p>
+                Today, Cloud9 Music Africa  is a community of amazing people dedicated to creativity, 
+                innovation and breaking new frontiers.
+              </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</php>
